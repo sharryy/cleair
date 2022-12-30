@@ -12,7 +12,7 @@ Welcome to the Air Quality Monitoring System for IoT project! This system allows
 
 ### Hardware Components
 
-1. Raspberry Pi (or similar single-board computer)
+1. Arduino
 2. Sensors for temperature, humidity, CO2, and VOCs
 3. WiFi module for connecting to the internet
 
