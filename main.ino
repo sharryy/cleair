@@ -3,8 +3,8 @@
 int buzzer = 32;
 int Sensor_input = 34;
 
-const char* ssid = "Mahina's Galaxy A32";             // your network SSID (name)
-const char* password = "suje1049";  // your network password
+const char* ssid = "<network-ssid-here>";             
+const char* password = "<network-password>";  
 
 WiFiClient client;
 unsigned long lastTime = 0;
