@@ -12,7 +12,7 @@ WiFiClient client;
 unsigned long lastTime = 0;
 unsigned long myChannelNumber = 1992567;
 
-const char* myWriteAPIKey = "VVMXFIA4TD1OB51E";
+const char* API_KEY = "<API-KEY-HERE>";
 
 void setup() {
   Serial.begin(115200);
