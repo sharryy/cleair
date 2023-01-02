@@ -19,6 +19,9 @@ This project uses an Arduino microcontroller to build a smoke detector system th
 
 Replace the `CHANNEL_NUMBER` and `API_KEY` variables in the code by your actual keys from [Thingspeak](https://thingspeak.com/). Also replace network ssid and password with actual values.
 
+### TinkerCad Implementation
+The circuit deigned in TinkerCad is different from the hardware circuit. Esp32 is used in hardware but it is not available in Tinkercad, so circuit on TinkerCad is implemented using Arduino UNO.
+
 ### Circuit Diagram
 
 ![Circuit Diagram](https://github.com/sharryy/cleair/blob/main/assets/circuit-diagram.jpeg)
