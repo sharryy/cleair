@@ -1,18 +1,18 @@
 # Arduino Smoke Detector System
 
-This project uses an Arduino microcontroller to build a smoke detector system that can detect the presence of smoke and trigger an alarm. Additionally, it can send data to thingspeak where we can visualize the change in data.
+This project uses an ESP32 microcontroller to build a smoke detector system that can detect the presence of smoke and trigger an alarm. Additionally, it can send data to thingspeak where we can visualize the change in data.
 
 
 ### Hardware Components
 
-1. Arduino board (e.g. Arduino Uno)
+1. ESP32 (e.g. ESP32-wroom-32)
 2. Smoke sensor (e.g. MQ-2 smoke sensor)
 3. Buzzer or speaker for the alarm
 
 ### Usage
 
 1. Connect the hardware components according to circuit diagram
-2. Upload the code to the Arduino board.
+2. Upload the code to the microcontroller board.
 3. The smoke detector system is now operational. If the smoke sensor detects smoke, the alarm will be triggered.
 
 ### How to setup Code?
