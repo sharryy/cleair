@@ -1,4 +1,4 @@
-# Arduino Smoke Detector System
+# Smoke Detector System
 
 This project uses an ESP32 microcontroller to build a smoke detector system that can detect the presence of smoke and trigger an alarm. Additionally, it can send data to thingspeak where we can visualize the change in data.
 
