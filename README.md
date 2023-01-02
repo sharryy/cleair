@@ -19,6 +19,11 @@ This project uses an Arduino microcontroller to build a smoke detector system th
 
 Replace the `CHANNEL_NUMBER` and `API_KEY` variables in the code by your actual keys from [Thingspeak](https://thingspeak.com/). Also replace network ssid and password with actual values.
 
+### Circuit Diagram
+
+![Circuit Diagram](https://github.com/sharryy/cleair/blob/main/assets/circuit-diagram.jpeg)
+
+
 ### Customization
 
 You can customize the threshold for triggering the alarm by modifying the value in the if statement in the loop function. For example, to increase the sensitivity of the smoke detector, you can lower the threshold value.
