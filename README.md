@@ -1,20 +1,36 @@
-# Air Quality Monitoring System
+# Arduino Smoke Detector System
 
-Welcome to the Air Quality Monitoring System for IoT project! This system allows you to monitor and track the air quality in your home or office in real-time using a network of connected sensors and an easy-to-use web app.
+This project uses an Arduino microcontroller to build a smoke detector system that can detect the presence of smoke and trigger an alarm. Additionally, it can send data to thingspeak where we can visualize the change in data.
 
-### Features
-
-1. Monitor and track air quality metrics such as temperature, humidity, carbon dioxide, and volatile organic compounds (VOCs)
-2. Receive alerts when air quality levels exceed specified thresholds
-3. View historical data and trends on a user-friendly dashboard
-4. Connect multiple sensors to create a comprehensive monitoring network
-5. Easy setup and configuration using the web app
 
 ### Hardware Components
 
-1. Arduino
-2. Sensors for temperature, humidity, CO2, and VOCs
-3. WiFi module for connecting to the internet
+1. Arduino board (e.g. Arduino Uno)
+2. Smoke sensor (e.g. MQ-2 smoke sensor)
+3. Buzzer or speaker for the alarm
+
+### Usage
+
+1. Connect the hardware components according to circuit diagram
+2. Upload the code to the Arduino board.
+3. The smoke detector system is now operational. If the smoke sensor detects smoke, the alarm will be triggered.
+
+### How to setup Code?
+
+Replace the `CHANNEL_NUMBER` and `API_KEY` variables in the code by your actual keys from [Thingspeak](https://thingspeak.com/). Also replace network ssid and password with actual values.
+
+### Customization
+
+You can customize the threshold for triggering the alarm by modifying the value in the if statement in the loop function. For example, to increase the sensitivity of the smoke detector, you can lower the threshold value.
+
+```
+if (sensor_Aout > 1000) {
+  // code to execute if sensor value is above threshold
+} else {
+  // code to execute if sensor value is below threshold
+}
+
+```
 
 ### Contribute
 
