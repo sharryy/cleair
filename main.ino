@@ -51,7 +51,7 @@ void loop() {
     Serial.print("\t");
     Serial.print("\t");
     
-    int x = ThingSpeak.writeField(myChannelNumber, 1, sensor_Aout, myWriteAPIKey);
+    int x = ThingSpeak.writeField(CHANNEL_NUMBER, 1, sensor_Aout, API_KEY);
     
     if (sensor_Aout > 1000) {
       Serial.println("Gas");
