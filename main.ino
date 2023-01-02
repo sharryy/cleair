@@ -10,7 +10,7 @@ const char* password = "<network-password>";
 WiFiClient client;
 
 unsigned long lastTime = 0;
-unsigned long myChannelNumber = 1992567;
+unsigned long CHANNEL_NUMBER = 111111; // Replace This with actual channel number
 
 const char* API_KEY = "<API-KEY-HERE>";
 
