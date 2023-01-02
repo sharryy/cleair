@@ -12,7 +12,7 @@ This project uses an ESP32 microcontroller to build a smoke detector system that
 ### Usage
 
 1. Connect the hardware components according to circuit diagram
-2. Upload the code to the microcontroller board.
+2. Upload the code to the ESP32 using Ardino IDE.
 3. The smoke detector system is now operational. If the smoke sensor detects smoke, the alarm will be triggered.
 
 ### How to setup Code?
